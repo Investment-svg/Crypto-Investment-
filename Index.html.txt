@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Investment Platform</title>
+<style>
+body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+header { background: #333; color: #fff; padding: 20px; text-align: center; }
+section { padding: 20px; }
+.plan { background-color: #fff; border: 1px solid #ccc; padding: 10px; margin: 10px 0; }
+.cta-button { background-color: #007BFF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+.cta-button:hover { background-color: #0056b3; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Welcome to Crypto Investment</h1>
+<p>Your path to secure crypto investments</p>
+</header>
+
+<section>
+<h2>Our Investment Plans</h2>
+
+<div class="plan">
+<h3>Plan 1: Daily Returns</h3>
+<p>Invest in this plan for daily returns of 1.5%. Minimum deposit: 50 USDT</p>
+<a href="#invest" class="cta-button">Invest Now</a>
+</div>
+
+<div class="plan">
+<h3>Plan 2: Weekly Returns</h3>
+<p>Invest in this plan for weekly returns of 10%. Minimum deposit: 100 USDT</p>
+<a href="#invest" class="cta-button">Invest Now</a>
+</div>
+
+<div class="plan">
+<h3>Plan 3: Monthly Returns</h3>
+<p>Invest in this plan for monthly returns of 30%. Minimum deposit: 500 USDT</p>
+<a href="#invest" class="cta-button">Invest Now</a>
+</div>
+</section>
+
+<section id="invest">
+<h2>How to Invest</h2>
+<p>To invest, send USDT BEP-20 tokens to the following address:</p>
+<p><strong>Address:</strong> 0xa4849f448f6d8529aba6a995f3be12b2f42e1441</p>
+<p>After sending your USDT, you can track your investment from your dashboard.</p>
+
+<h3>Transaction Status</h3>
+<p>Check your investment status once the transaction is completed.</p>
+
+<button class="cta-button" onclick="checkTransactionStatus()">Check Transaction Status</button>
+</section>
+
+<script>
+// Example function to check transaction status (You'd need a blockchain API like Web3.js or ethers.js for this part)
+function checkTransactionStatus() {
+alert('In a real implementation, this would call the blockchain API to check transaction status.');
+}
+</script>
+
+</body>
+</html
